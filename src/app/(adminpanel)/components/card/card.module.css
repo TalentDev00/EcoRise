@@ -1,0 +1,55 @@
+.card{
+    width: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 190px;
+    padding: 2.5rem 1.5rem;
+    backdrop-filter: blur(5px);
+    /* background: var(--gradient-bg-2) padding-box; */
+    background: var(--gradient-bg-2) padding-box,
+    var(--gradient-bg-3) border-box;
+    border-radius: 16px;
+    max-width: 392px;
+    border: 4px solid transparent;    
+
+}
+
+.cardFull{
+    width: 100%;
+    max-width: 100%;
+    min-height: 222px;
+}
+
+.cardTwo{
+    width: calc(100% / 2);
+}
+
+.cardBg{
+    background: var(--gradient-bg) padding-box,
+    var(--gradient-bg) border-box;
+}
+
+.cardHeading{
+    font-size: 28px;
+    margin: 0 0 1rem;
+    text-transform: capitalize;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.cardPara{
+    font-size: 24px;
+    margin: 0;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.cardParaXs{
+    font-size: 16px;
+}
+
+.cardParaMd{
+    font-size: 22px;
+}
